@@ -115,11 +115,8 @@ footer {
     opacity: 24;
 }
 
-/*Este debes cambiar Kito*/
-/*.caracteristica:hover i {
-    transform: scale(1.8);
-    transition: transform 0.5s;
-}*/
+
+
 
 #productos {
     background-color: #000000;
@@ -160,10 +157,16 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .producto-lista li img {
     width: 106px;
     height: 150px;
     margin-right: 1em;
+}
+
+.caracteristica:hover i {
+    transform: scale(1.9);
+    transition: transform 0.4s;
 }
 
 .producto-lista li h3 {
