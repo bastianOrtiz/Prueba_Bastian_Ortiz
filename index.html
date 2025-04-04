@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Juegos</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Bienvenido al mundo de juegos de Bastian</h1>
+        </div>
+    </header>
+    <main>
+
+        <section id="nav" class="nav">
+            <div class="container-fluid mt-5">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">WikiGames</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#principal">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#caracteristicas">Características</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#productos">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#seccion_videos">Videos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section id="principal" class="principal">
+            <div>
+                <img src="assest/img/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg" alt="Imagen Principal" width="100%" height="800px" style="border-radius: 7%;">
+            </div>
+        </section>
+        <section id="principal" class="principal">
+            <div class="contenido_principal">
+                <p>
+                    En esta página encontrarás los mejores juegos de la historia, desde los clásicos hasta los más modernos. 
+                    <br>
+                    <br>
+                    Si eres un amante de los videojuegos, este es tu lugar. 
+                    <br>
+                    <br>
+                    ¡Disfruta de la experiencia de jugar!
+                </p>
+                <img src="assest/img/videojuegosenlaacademia.jpeg" alt="imagen de referencia" class="imagen_principal">
+            </div>
+        </section>
+        <section id="caracteristicas" class="caracteristicas">
+            <h2>Características</h2>
+            <div class="caracteristicas-container">
+                <div class="caracteristica">
+                    <i class="fa fa-wifi"></i>
+                    <p>Online</p> <br>
+                    <p>Podrás jugar con tus amigos en línea y competir con jugadores de todo el mundo.</p>
+                </div>
+                <div class="caracteristica">
+                    <i class="fa fa-gamepad"></i>
+                    <p>Multiplayer</p> <br>
+                    <p>Podrás jugar con tus amigos en la misma consola y disfrutar de la experiencia de jugar juntos.</p>
+                </div>
+                <div class="caracteristica">
+                    <i class="fa fa-fast-backward"></i>
+                    <p>Retro</p> <br>
+                    <p>Podrás disfrutar de los clásicos de antaño y revivir la nostalgia de los videojuegos de tu infancia.</p>
+                </div>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>Sección de Productos</h2>
+            <ul class="producto-lista">
+                <li>
+                    <img src="assest/img/thewitcher3.jpg" alt="Producto 1">
+                    <div>
+                        <h3>The Witcher 3</h3>
+                        <p>Eres Geralt de Rivia, cazador de monstruos. En un continente devastado por la guerra e infestado de criaturas, tu misión es encontrar a Ciri, la niña de la profecía, un arma viviente que puede alterar el mundo tal y como lo conocemos. </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assest/img/Dark_Souls_Remastered_Portada.jpg" alt="Producto 2">
+                    <div>
+                        <h3>Dark Souls</h3>
+                        <p>Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assest/img/liesp.jpg" alt="Producto 3">
+                    <div>
+                        <h3>Lies Of P</h3>
+                        <p>Lies of P es un soulslike trepidante que toma la conocida historia de Pinocho, le da la vuelta y la ubica en una belle époque elegante y oscura. </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="seccion_videos" class="video">
+            <h2>Canciones de Videojuegos</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/3wkZu2kDeVg?playlist=skBJ7YUWk-U,Gjht7acg9d4,3wkZu2kDeVg&loop=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@bastiJuegos</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
